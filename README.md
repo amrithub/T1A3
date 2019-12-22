@@ -28,11 +28,12 @@ Navigation bar is quite essential for all the pages of the website. User needs l
 Tese navigation bars appear on the samme position even if we scrool up or down or by side. These are quite helpful when we want to navigate to another page from any current position of the web page. The link bar on my portfolio website's page appears at the top position whethe I scroll down or up.
 
 
+![sticky-nav](docs/sticky.png)
+Before Scrolling
 
+![sticky-nav](docs/sticky2.png)
 
-
-![sticky-nav](doc/Screenshots/Website/Sticky-nav.png)
-
+After scrolling down
 
 
 
@@ -57,7 +58,7 @@ Hover effect makes the page more interactive because the user can be even certai
 The contact page is quite precise and instead of unnecessary texts and other decorations, the linkable and styled icons are presented regarding yahoo mail, twitter, facebook and linkedin. Any potential recruiter can contact by clicking the respective icon.
 
 
-![hover](doc/Screenshots/Website/Hover-effect.png)
+
 ## Other Vital features
 
 ### 1. Responsive Design:
@@ -68,7 +69,7 @@ The contact page is quite precise and instead of unnecessary texts and other dec
 
   This was achieved by using CSS Flexbox, which makes it possible to adjust the positioning of elements in response to a change in screen size. On a smartphone as small as an iPhone 5/SE, the website is designed to view correctly. In order to achieve such effects on browsers, a media break point was set to' min-width: 768px.' Pages such as blogs and ventures will have 2 rows of layout in a laptop.
   
- ### 2.Version Control: 
+ ### 2. Version Control: 
  Git and Github has been used for controlling the development of the page and change of features. Regarding this website, there are three branches, master, red and green. In red and green branch, the background of the page are red and green respectively. But ultimately, the red background seemed more professional and thats why I merged the red branch to the master branch. Several codes related to git were run in the command line for version control.
 
  
@@ -105,17 +106,80 @@ The contact page is quite precise and instead of unnecessary texts and other dec
 I have mainly chosen blue color in my site because it is a gentle color and it gives better view. My mood board is as below:
 ![Moodboard](docs/mood.png)
 
-Target Audience Potential employers and recruiting agencies
+
+
+
+### WireFrame:
+
+![sticky-nav](docs/wireframe.png)
+
+## Project Management tool (Trello) screenshots
+
+![sticky-nav](docs/images/t1.png)
+
+![sticky-nav](docs/images/t2.png)
+
+![sticky-nav](docs/images/t3.png)
+
+
+
+## **WEbsite screenshots:**
+## Homepages:
+Homepages for desktop and mobile view:
+## Desktop view:
+
+![sticky-nav](docs/images/hd1.png)
+
+## Mobile view:
+![sticky-nav](docs/images/hm1.png)
+
+## About pages:
+## Dsktop
+![sticky-nav](docs/images/ad.png)
+
+## Mobile:
+![sticky-nav](docs/images/am.png)
+## Blogs:
+![sticky-nav](docs/images/bd.png)
+## Dsktop
+
+## Mobile:
+![sticky-nav](docs/images/bm.png)
+## Projects:
+
+## Dsktop
+![sticky-nav](docs/images/pd.png)
+
+## Mobile:
+![sticky-nav](docs/images/pm.png)
+
+## About:
+## Dsktop
+![sticky-nav](docs/images/ad.png)
+## Mobile:
+![sticky-nav](docs/images/am.png)
+
+## Contact page:
+## Dsktop
+![sticky-nav](docs/images/cd.png)
+
+## Mobile:
+![sticky-nav](docs/images/cm.png)
+
+
+
+
+## **Target Audience Potential employers and recruiting agencies**
 Educators and devs
 Family, friends and relatives
 Businesses
-Technology Stack
-Programming languages: HTML, CSS, SASS
+## **Technology applied**
+Programming languages: HTML, CSS
 Source control: git & GitHub
 Planning & implementation: 1. project management (Trello), 2. mood board (Pinterest), 3. wireframe (Balsamiq)
 Deployment platform: Github
 Subresource Integrity hash: sha-512
-Future Improvements
+## **Future Extensions:**
 Adding an collapsable menu bar when screen goes small
 Designing personal logo for branding
 More Images
