@@ -58,9 +58,9 @@ The contact page is quite precise and instead of unnecessary texts and other dec
 
 
 ![hover](doc/Screenshots/Website/Hover-effect.png)
-### Other Vital features
+## Other Vital features
 
-- ### Responsive Design
+### 1. Responsive Design:
 
  Since the user or the webpage visitor may be using any device of any size, example, mobile or desktop or pads and tabs, I have made the design responsive so that the page is compatible to any window. I have used the Media Queries in CSS file. When the user is using desktop, the navigation bars and the flex boxes (image and text) in all the pages appear horizontally alligned but if it is a mobile screen, they will be alligned vertically so that it is more responsive and comfortable for the user. The screenshots regarding desktop and mobile view is presented below:
 
@@ -68,56 +68,55 @@ The contact page is quite precise and instead of unnecessary texts and other dec
 
   This was achieved by using CSS Flexbox, which makes it possible to adjust the positioning of elements in response to a change in screen size. On a smartphone as small as an iPhone 5/SE, the website is designed to view correctly. In order to achieve such effects on browsers, a media break point was set to' min-width: 768px.' Pages such as blogs and ventures will have 2 rows of layout in a laptop.
   
+ ### 2.Version Control: 
+ Git and Github has been used for controlling the development of the page and change of features. Regarding this website, there are three branches, master, red and green. In red and green branch, the background of the page are red and green respectively. But ultimately, the red background seemed more professional and thats why I merged the red branch to the master branch. Several codes related to git were run in the command line for version control.
 
-- ### Accessibility
+ 
 
-  The website is build by keeping visually-impaired users in mind. A proper meaningful description is used in the alt-text for any images on the page.  Color contrast between the elements is high by generally using two contrast colors and background color for the page is light . This will give the contrast between the important elements. 
+ ### 3. Meaning names for classes and divs:
 
+ Semantic HTML feature has been applied to make the code more readable and understandable. Tags like container, image has been used  and 
+
+ the classes and ids used in CSS are also defined in such a way that they refer to the code's actual intention. Container is used as a package.
   
 
-- ### Semantic HTML
 
-  Semantic HTML element is used for better reading and understanding of the code. tags such as Header, Section, Nabvar, Footer, Main  have been used and comments have been added to the HTML document.
 
-  Also, the classes and id's used in CSS are named in such a way that it relates to the actual intention of the code. Such as box, container are used.
+### 4. Subresource integrity (SRI):
 
-  
-
-- ### Three version
-
-  Three versions of the website have been produced and saved on different branches in Github. These versions are:
-
-  - 'master' branch with the base version
-- 'Navbar' created in the seperate branch and merged to master branch
-  - 'background-color' in the seperate branch created with different color.
-
-  ​	
-
-  The branch version can be visited by typing: branch checkout branch  name in the terminal.
-
-  For example to check the navbar in the branch type: branch checkout navbar.
-
-  
-
-- ### Subresource integrity
-
-  It is to  make sure that the files delivered to your web application do not have any unexpected malicious code by a third party.
-
-  Since subresource integrity is very important, it is achieved by creating a hash using sha512 and using it in our link tags in HTML. This is to make sure that page will only load with styles if it is identical to its state when the sha512 hash was created. Any changes made in the page, the HTML page will load without CSS styling.
+  SRI is a very important aspect of webpage design. SRI assures that the files a web designer received  do not have any unexpected malicious code and characters on behalf of a third party. Because subresource integrity is very necessary, a hash is created using sha512 and used in our HTML link tags. This is to ensure that the page will only load with styles when the sha512 hash was formed, if it is identical to its state. Any changes made to the website would load the HTML file without the styling of CSS.
 
   
 
 ## Sitemap
 
-The website simply has all pages link to each other via the navigation bar. So user can navigate to any pages from anywhere.  A sitemap for the website is presented below:
+ A sitemap for the website is presented below:
 
 
-![Sitemap](doc/Screenshots/Site-map/Site-map.png)
-
-
-
-### Design brief
+![Sitemap](docs/sitemap.png)
 
 
 
-#### Pinterest
+## Design brief
+
+
+
+### Pinterest
+I have mainly chosen blue color in my site because it is a gentle color and it gives better view. My mood board is as below:
+![Moodboard](docs/mood.png)
+
+Target Audience Potential employers and recruiting agencies
+Educators and devs
+Family, friends and relatives
+Businesses
+Technology Stack
+Programming languages: HTML, CSS, SASS
+Source control: git & GitHub
+Planning & implementation: 1. project management (Trello), 2. mood board (Pinterest), 3. wireframe (Balsamiq)
+Deployment platform: Github
+Subresource Integrity hash: sha-512
+Future Improvements
+Adding an collapsable menu bar when screen goes small
+Designing personal logo for branding
+More Images
+Learn grid and create more meaningful design
