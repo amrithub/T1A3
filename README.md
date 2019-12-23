@@ -64,10 +64,12 @@ The contact page is quite precise and instead of unnecessary texts and other dec
 ### 1. Responsive Design:
 
  Since the user or the webpage visitor may be using any device of any size, example, mobile or desktop or pads and tabs, I have made the design responsive so that the page is compatible to any window. I have used the Media Queries in CSS file. When the user is using desktop, the navigation bars and the flex boxes (image and text) in all the pages appear horizontally alligned but if it is a mobile screen, they will be alligned vertically so that it is more responsive and comfortable for the user. The screenshots regarding desktop and mobile view is presented below:
+### Desktop view:
+  ![Sitemap](docs/images/hd1.png)
+### Mobile View:
+![Sitemap](docs/images/hm1.png)
 
-  PIC
-
-  This was achieved by using CSS Flexbox, which makes it possible to adjust the positioning of elements in response to a change in screen size. On a smartphone as small as an iPhone 5/SE, the website is designed to view correctly. In order to achieve such effects on browsers, a media break point was set to' min-width: 768px.' Pages such as blogs and ventures will have 2 rows of layout in a laptop.
+  As shown by the screenshots of mobile and desktop view, the location of the webpage items are arranged to make it compatable to different size screens. For example, menu bar fits better horizontally in desktop or laptop but they look odd in mobile if horizontally arranged and can,t be considered good design. So, to make the design responsive, the menu items are arranged vertically in mobile for better view.
   
  ### 2. Version Control: 
  Git and Github has been used for controlling the development of the page and change of features. Regarding this website, there are three branches, master, red and green. In red and green branch, the background of the page are red and green respectively. But ultimately, the red background seemed more professional and thats why I merged the red branch to the master branch. Several codes related to git were run in the command line for version control.
@@ -180,7 +182,6 @@ Planning & implementation: 1. project management (Trello), 2. mood board (Pinter
 Deployment platform: Github
 Subresource Integrity hash: sha-512
 ## **Future Extensions:**
-Adding an collapsable menu bar when screen goes small
-Designing personal logo for branding
-More Images
-Learn grid and create more meaningful design
+More responsive design regarding mobile and pads.
+Use of colors more professionally.
+Apply SCSS and SASS.
