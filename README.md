@@ -1,4 +1,4 @@
-# **Portfolio Website: Amrit Sagar Khaanl**
+# **Portfolio Website: Amrit Sagar Khanal**
 # **Links**
 Deployed Website: https://amrithub.github.io/T1A3/index.html
 
