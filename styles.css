@@ -16,6 +16,8 @@ display: grid;
 height: 100%;
 align-content: centre;
 bottom: 30px;
+/* width: 100%;
+  height: auto; */
 }
 h6{
   margin-top: 80px;
@@ -157,12 +159,20 @@ a:visited {
   
   
 }
-.image2 {
-  background: rgb(207, 176, 192);
-  flex: 1;
-}
+/* .image2 {
+  width: 100%;
+  height: auto;
+} */
 
 @media screen and (min-width: 599px)  {
+  .image2 {
+    width: 40%;
+    height: auto;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
   
     h6{
       margin-top: 0px;
@@ -216,10 +226,7 @@ a:visited {
     
     flex-direction: row;
   }
-  .image2 {
-    background: hotpink;
-    flex: 1;
-  }
+  
   .flex-container ul { 
     column-gap: 10px;
     flex-direction: row; 
