@@ -34,7 +34,8 @@ float: left;
 width: 100%;
 padding: 10px;
 height: 300px;
-margin-top:100px; /* Should be removed. Only for demonstration */
+margin-top:100px;
+margin-left: 50px;/* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -105,7 +106,8 @@ p{
    font-style: italic;
   color:purple;
   width: 400px;
-  height:500px;
+  height:150px;
+  margin-left:500px;
 }
 nav ul {
   position: sticky;
