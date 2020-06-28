@@ -5,7 +5,7 @@
 }
 body{
   font-size:3vw;
-    background-color:rgb(228, 161, 197);
+    background-color:rgb(245, 241, 243);
 }
 .copyright{
   
@@ -21,7 +21,7 @@ bottom: 30px;
 }
 h6{
   margin-top: 80px;
-  background-color: rgb(199, 195, 248);
+  background-color: rgb(124, 124, 124);
   
 }
 .contactgit{
@@ -69,7 +69,7 @@ margin-left: 50px;;
   margin-left: 50px;;
   }
 .main {
-background: rgb(204, 205, 206);
+background: rgb(252, 248, 248);
 flex: 1;
 text-align: center;
 flex-direction: column;
@@ -159,10 +159,17 @@ a:visited {
   
   
 }
-/* .image2 {
-  width: 100%;
-  height: auto;
-} */
+.image2 {
+  
+    width: 40%;
+
+    height: auto;
+    
+  
+  
+  
+  
+}
 
 @media screen and (min-width: 599px)  {
   .image2 {
@@ -174,23 +181,22 @@ a:visited {
     height: auto;
   }
   
-    h6{
-      margin-top: 0px;
-    }
+   
   p{
   font-size: 1.6vw;
   color:purple;
-  width: 700px;
-  height:700px;
-  margin-left: 10px;
+  width: 800px;
+  height:200px;
+  margin-left: 20px;
   }
   h6{
+    margin-top: 0px;
     margin-left: 28px;
     width: 1110px;
     box-shadow: 0ex;
     text-shadow: 0vmax;
     color: rgb(51, 20, 80);
-    background-color:rgb(198, 200, 201);
+    background-color:rgb(243, 245, 247);
     font-style: normal;
     
     font-size: 1.4vw;
@@ -221,7 +227,7 @@ a:visited {
     flex-direction: row;
   }
   .main {
-    background: rgb(198, 200, 201);
+    background: rgb(248, 249, 250);
     text-align: left;
     
     flex-direction: row;
