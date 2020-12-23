@@ -4,7 +4,7 @@ Deployed Website: https://amrithub.github.io/T1A3/index.html
 
 Github Address: https://github.com/amrithub
 ## Purpose of the project:
-Since being my first website design, the primary objective of this project is to practice as much web design techniwues as possible.
+Being my first website design, the primary objective of this project is to practice as much web design techniwues as possible.
 The basic purpose of my portfolio website is to apply and demonstrate my development and design skills. The website  exposes  my skillsto  perform my project planning. 
 
 Along with the successful completion of my project, I have been able to practice several aspects of webpage designing including html and css. Many other techniques like linking, responsive design and subroutine integration were also the vital part of my learning and practice.
