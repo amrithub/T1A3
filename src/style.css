@@ -53,12 +53,7 @@ div.fixed {
   margin-top: 50px;
   margin-left: 50px;;
 }
-.main {
-  background: deepskyblue;
-  flex: 1;
-  text-align: center;
-  flex-direction: column;
-}
+
 .image {
   background: hotpink;
   flex: 1;
